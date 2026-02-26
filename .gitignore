@@ -1,0 +1,43 @@
+# 排除旧代码目录
+old/
+# 排除flexiv
+flexiv_rdk/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+.Python
+*.so
+.venv/
+venv/
+env/
+.env
+*.egg
+*.egg-info/
+.eggs/
+dist/
+build/
+*.manifest
+
+# 日志与临时文件
+*.log
+*.tmp
+*.temp
+.cache/
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+.cursor/
+.specstory/
+.idea/
+*.swp
+*.swo
+*~
+
+# 本地配置与密钥（如有）
+.env
+.env.local
+*.pem
